@@ -1,4 +1,4 @@
-# Pairs-Trading-Project\
+# Pairs-Trading-Project
 The main objective of the project is to explore and implement Pairs Trading, a statistical arbitrage strategy, to profit from the relative mispricing between co-integrated stocks. Specifically, the project aims to:
 
 Identify pairs of stocks from major economic sectors whose prices are co-integrated, meaning they move together in the long run.
@@ -24,7 +24,8 @@ Engle-Granger Test: A method for testing co-integration between two time series.
 
 
 
-3) Steps:
+Steps:
+ 
 Step 1: Test for Stationarity - Applied the ADF test to the time series data to confirm non-stationarity (I(1)) and after differencing, stationarity (I(0)) was achieved.
 
 Step 2: Test for Co-integration - Engle-Granger test was used to test whether two stock prices are co-integrated. Linear regression was used to estimate the co-integration vector.
